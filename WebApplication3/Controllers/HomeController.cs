@@ -28,8 +28,9 @@ namespace WebApplication3.Controllers
             return View();
         }
 
-        public IActionResult user_list()
+        public IActionResult user_list(string name="haider")
         {
+            
             return View();
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
